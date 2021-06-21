@@ -1,5 +1,5 @@
 package go_say_hello_modules
 
-func SayHello() string{
-	return "Hello"
+func SayHello(nama string) string{
+	return "Hello " + nama
 }
